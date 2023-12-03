@@ -6,15 +6,6 @@ import { Fade } from "react-reveal";
 import collegpt from "../../images/collegpt.jpeg";
 import barber from "../../images/barber.png";
 import echallan from "../../images/echallan.png";
-import eco from "../../images/eco.png";
-import pp from "../../images/portfolio.png";
-import meal from "../../images/meal.png";
-import ac from "../../images/academic.png";
-import age from "../../images/age.png";
-import calculator from "../../images/calculator.png";
-import calendar from "../../images/calendar.png";
-import dc from "../../images/dc.png";
-import sims from "../../images/sims.png";
 import { FaCode } from "react-icons/fa";
 export default function ProjectPage() {
   return (

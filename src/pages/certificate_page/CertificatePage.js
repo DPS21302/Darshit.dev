@@ -6,15 +6,7 @@ import ssip from "../../images/ssip.png";
 import gdsc from "../../images/gdsc.png";
 import nptel from "../../images/nptel.png";
 import crowdsource from "../../images/crowdsource.png";
-import nactar from "../../images/nactar.jpg";
-import ccna from "../../images/CCNA_Certificate.jpg";
-// import cbta from "../../images/CBT&A.pdf";
-import skill from "../../images/skill.png";
 import iitgn from "../../images/iitgn.png";
-import c from "../../images/c.jpg";
-import iq from "../../images/IQ_Test.jpg";
-import computer from "../../images/Computer_knowledge.jpg";
-import graphics from "../../images/Graphics_Design.jpg";
 import Particle from "../../Particle";
 export default function CertificatePage() {
   return (

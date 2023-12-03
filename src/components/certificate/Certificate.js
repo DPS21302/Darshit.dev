@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Graphics_Design from "../../images/Graphics_Design.jpg";
 import CCNA_Certificate from "../../images/CCNA_Certificate.jpg";
-// import cbta from "../../images/CBT&A.pdf";
 import c from "../../images/c.jpg";
 import skill from "../../images/skill.png";
 import problem_solving from "../../images/problem_solving.png";
