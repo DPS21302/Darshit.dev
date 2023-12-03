@@ -32,7 +32,7 @@ export default function Home() {
               </h1>
 
               <h1 className="heading-name">
-                I'M
+                I'm
                 <strong className="main-name"> Darshit Sojitra</strong>
               </h1>
 
@@ -121,8 +121,8 @@ export default function Home() {
         </Container>
       </Container>
       <AboutmeContainer />
-      <Certification />
       <Projects />
+      <Certification />
       <Contactus />
     </section>
   );

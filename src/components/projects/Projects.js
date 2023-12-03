@@ -220,7 +220,7 @@ export default function Projects() {
                     <div className="project--showcaseBtn">
                       <a
                         href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Personal-Portfolio"
+                          "https://github.com/DPS21302/Darshit.dev"
                         }
                         target="_blank"
                         rel="noreferrer"
@@ -257,7 +257,7 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    HTML, CSS, SCSS, React, JavaScript
+                    HTML, CSS, JavaScript, Node.js, React.js
                   </div>
                 </div>
               </Fade>
