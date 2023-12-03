@@ -16,7 +16,7 @@ export default function MyNav() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
 
-    const googleDriveLink = 'https://drive.google.com/file/d/1voAjfLZcNcTeyKKBjhN4CLOFbvPOY2Lc/view?usp=drivesdk';
+    const googleDriveLink = 'https://drive.google.com/file/d/1hxeehUs1XbsN-5L9ytGj5OMf_yf8PDF5/view';
   
 
   function scrollHandler() {
