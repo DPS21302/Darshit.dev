@@ -1576,12 +1576,12 @@ html {
   justify-content: space-evenly;
   flex: 0.6;
   box-sizing: border-box;
-  padding-left: 7rem;
+  padding-left: 0rem;
   margin-top: 1.2rem;
 }
 
 .contact-map{
-  padding-left: 7rem;
+  padding-left: 0rem;
 }
 @media (max-width: 767px) {
   .contacts-details {

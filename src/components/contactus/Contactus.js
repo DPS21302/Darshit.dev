@@ -54,8 +54,8 @@ export default function Contactus() {
             </Col>
             <Col md={12} id="contact" className="mt-3">
               <Row>
-                <Col md={4}>
-                  <div className="contacts-form" data-aos="fade-up">
+                {/*<Col md={4}>
+                   <div className="contacts-form" data-aos="fade-up">
                     <form>
                       <div className="input-container d-flex flex-column">
                         <label htmlFor="username" className="label-class">
@@ -114,7 +114,7 @@ export default function Contactus() {
                       </div>
                     </form>
                   </div>
-                </Col>
+                </Col> */}
                 <Col md={7}>
                   <div className="contacts-details">
                     <a
