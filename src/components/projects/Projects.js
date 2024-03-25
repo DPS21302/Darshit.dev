@@ -5,7 +5,7 @@ import { Fade } from "react-reveal";
 import collegpt from "../../images/collegpt.jpeg";
 import barber from "../../images/barber.png";
 import echallan from "../../images/echallan.png";
-import pp from "../../images/portfolio.png";
+import ub from "../../images/unite-bharat.png";
 import { FaCode } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { HiArrowRight } from "react-icons/hi";
@@ -24,7 +24,7 @@ export default function Projects() {
                 <h1 className="aboutme-heading">Projects</h1>
               </Zoom>
             </Col>
-            <Col md={3}>
+            <Col md={4}>
               <Fade bottom>
                 <div
                   key={1}
@@ -82,7 +82,66 @@ export default function Projects() {
                 </div>
               </Fade>
             </Col>
-            <Col md={3}>
+            <Col md={4}>
+              <Fade bottom>
+                <div
+                  key={1}
+                  className="singleProject"
+                  style={{
+                    backgroundColor: "rgb(142 70 186 / 31%)",
+                    border: "1px solid",
+                  }}
+                >
+                  <div className="projectContent">
+                    <h5 id={"first"} style={{ color: "#fff" }}>
+                    Unite-Bharat
+                    </h5>
+                    <img src={ub} alt={ub} />
+                    <div className="project--showcaseBtn">
+                      <a
+                        href={
+                          "https://unite-bharat.vercel.app/"
+                        }
+                        target="_blank"
+                        rel="noreferrer"
+                        className={"iconBtn"}
+                        aria-labelledby={`code`}
+                      >
+                        <FaCode
+                          id={`code`}
+                          className={"icon"}
+                          aria-label="Code"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <h6>
+                    <p
+                      className="project--desc"
+                      style={{
+                        background: "#fff",
+                        color: "#b061df",
+                        fontWeight: 600,
+                      }}
+                    >
+                      Built an online integrated platform for project repositories
+taken up by various universities and colleges.
+                    </p>
+                  </h6>
+                  <div
+                    className="project--lang"
+                    style={{
+                      background: "#fff",
+                      color: "#b061df",
+                      fontWeight: 600,
+                    }}
+                  >
+                    React.js, Node.js, MongoDB, Python
+                  </div>
+                </div>
+              </Fade>
+            </Col>
+            <Col md={4}>
               <Fade bottom>
                 <div
                   key={1}
@@ -140,7 +199,7 @@ export default function Projects() {
                 </div>
               </Fade>
             </Col>
-            <Col md={3}>
+            {/* <Col md={3}>
               <Fade bottom>
                 <div
                   key={1}
@@ -201,8 +260,8 @@ export default function Projects() {
                   </div>
                 </div>
               </Fade>
-            </Col>
-            <Col md={3}>
+            </Col> */}
+            {/* <Col md={3}>
               <Fade bottom>
                 <div
                   key={1}
@@ -261,16 +320,16 @@ export default function Projects() {
                   </div>
                 </div>
               </Fade>
-            </Col>
+            </Col> */}
           </Row>
-          {/* <div className="blog--viewAll">
+          <div className="blog--viewAll">
             <Link to="/projectspage">
               <button className="btn btn-primary">
                 View All
                 <HiArrowRight className="viewArr" />
               </button>
             </Link>
-          </div> */}
+          </div>
         </Container>
       </Container>
     </div>

@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
 import { Fade } from "react-reveal";
 import ssip from "../../images/ssip.png";
+import sih from "../../images/sih.png";
 import gdsc from "../../images/gdsc.png";
 import nptel from "../../images/nptel.png";
 import crowdsource from "../../images/crowdsource.png";
@@ -30,6 +31,49 @@ export default function CertificatePage() {
                   <Row>
                     <Col md={12} className="mt-5">
                       <Row className="g-5">
+                        <Col md={4} className="col-sm-12 col-md4">
+                          <Fade bottom duration={2000} distance="20px">
+                          <div className="cert-card">
+                      <div className="content">
+                        <a
+                          href="https://drive.google.com/file/d/10yUFKo4XNZZs3f2sdCxgEAfJ_xftXDJf/view"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <div className="content-overlay"></div>
+                          <div
+                            className="cert-header"
+                            style={{ backgroundColor: "white" }}
+                          >
+                            {<img className="logo_img" src={sih} alt={sih} />}
+                          </div>
+                          <div className="content-details fadeIn-top">
+                            <h3
+                              className="content-title"
+                              style={{ color: "black" }}
+                            >
+                              Certificate
+                            </h3>
+                          </div>
+                        </a>
+                      </div>
+                      <div className="cert-body">
+                        <h2
+                          className="cert-body-title"
+                          style={{ fontWeight: 700, color: "#fff" }}
+                        >
+                          Finalist Of SIH Hackathon-2023 <br /> (National Level)
+                        </h2>
+                        <h3
+                          className="cert-body-subtitle"
+                          style={{ color: "#eb90ff", marginBottom: "0px" }}
+                        >
+                          - India
+                        </h3>
+                      </div>
+                    </div>
+                  </Fade>
+                </Col>
                         <Col md={4} className="col-sm-12 col-md4">
                           <Fade bottom duration={2000} distance="20px">
                           <div className="cert-card">
@@ -78,49 +122,6 @@ export default function CertificatePage() {
                     <div className="cert-card">
                       <div className="content">
                         <a
-                          href="https://drive.google.com/file/d/1JQ_2Fmbo039-IUyb_U9S3LVudLYrLWuD/view?usp=drivesdk"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <div className="content-overlay"></div>
-                          <div
-                            className="cert-header"
-                            style={{ backgroundColor: "white" }}
-                          >
-                            {<img className="logo_img" src={gdsc} alt={gdsc} />}
-                          </div>
-                          <div className="content-details fadeIn-top">
-                            <h3
-                              className="content-title"
-                              style={{ color: "black" }}
-                            >
-                              Certificate
-                            </h3>
-                          </div>
-                        </a>
-                      </div>
-                      <div className="cert-body">
-                        <h2
-                          className="cert-body-title"
-                          style={{ fontWeight: 700, color: "#fff" }}
-                        >
-                          Google Cloud Career Practitioners Pathway Campaign 2022-23
-                        </h2>
-                        <h3
-                          className="cert-body-subtitle"
-                          style={{ color: "#eb90ff", marginBottom: "0px" }}
-                        >
-                          - Google Developer Student Clubs ITER
-                        </h3>
-                      </div>
-                    </div>
-                  </Fade>
-                </Col>
-                <Col md={4}>
-                  <Fade bottom duration={2000} distance="20px">
-                    <div className="cert-card">
-                      <div className="content">
-                        <a
                           href="https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL22CS91S4352035110193254"
                           target="_blank"
                           rel="noopener noreferrer"
@@ -159,6 +160,50 @@ export default function CertificatePage() {
                     </div>
                           </Fade>
                         </Col>
+                <Col md={4}>
+                  <Fade bottom duration={2000} distance="20px">
+                    <div className="cert-card">
+                      <div className="content">
+                        <a
+                          href="https://drive.google.com/file/d/1JQ_2Fmbo039-IUyb_U9S3LVudLYrLWuD/view?usp=drivesdk"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <div className="content-overlay"></div>
+                          <div
+                            className="cert-header"
+                            style={{ backgroundColor: "white" }}
+                          >
+                            {<img className="logo_img" src={gdsc} alt={gdsc} />}
+                          </div>
+                          <div className="content-details fadeIn-top">
+                            <h3
+                              className="content-title"
+                              style={{ color: "black" }}
+                            >
+                              Certificate
+                            </h3>
+                          </div>
+                        </a>
+                      </div>
+                      <div className="cert-body">
+                        <h2
+                          className="cert-body-title"
+                          style={{ fontWeight: 700, color: "#fff" }}
+                        >
+                          Google Cloud Career Practitioners Pathway Campaign 2022-23
+                        </h2>
+                        <h3
+                          className="cert-body-subtitle"
+                          style={{ color: "#eb90ff", marginBottom: "0px" }}
+                        >
+                          - Google Developer Student Clubs ITER
+                        </h3>
+                      </div>
+                    </div>
+                  </Fade>
+                </Col>
+   
                         <Col md={4}>
                           <Fade bottom duration={2000} distance="20px">
                             <div className="cert-card">

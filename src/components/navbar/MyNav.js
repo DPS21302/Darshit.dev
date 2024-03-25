@@ -16,7 +16,7 @@ export default function MyNav() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
 
-    const googleDriveLink = 'https://drive.google.com/file/d/1hxeehUs1XbsN-5L9ytGj5OMf_yf8PDF5/view';
+    const googleDriveLink = 'https://drive.google.com/file/d/1vsJcPxdnVsNaHoLDwnSmnWZoRBQDpUX0/view';
   
 
   function scrollHandler() {
@@ -107,7 +107,7 @@ export default function MyNav() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/blogs"
+                to="https://darshitsojitra.hashnode.dev/ruling-the-rhythms-youtube-musics-algorithm-the-ultimate-champion-of-custom-playlists"
                 onClick={() => updateExpanded(false)}
               >
                 <FaBlog style={{ marginBottom: "2px" }} /> Blogs

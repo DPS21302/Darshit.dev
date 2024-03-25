@@ -5,6 +5,7 @@ import Zoom from "react-reveal/Zoom";
 import { Fade } from "react-reveal";
 import collegpt from "../../images/collegpt.jpeg";
 import barber from "../../images/barber.png";
+import ub from "../../images/unite-bharat.png";
 import echallan from "../../images/echallan.png";
 import { FaCode } from "react-icons/fa";
 export default function ProjectPage() {
@@ -83,6 +84,64 @@ export default function ProjectPage() {
                                 }}
                               >
                                 React.js, Node.js, MongoDB
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+                        <Col md={3} className="col-sm-12 col-md-4">
+                          <Fade bottom>
+                            <div
+                              key={1}
+                              className="singleProject"
+                              style={{
+                                backgroundColor: "rgb(142 70 186 / 31%)",
+                                border: "1px solid",
+                              }}
+                            >
+                              <div className="projectContent">
+                                <h5 id={"first"} style={{ color: "#fff" }}>
+                                  Unite-Bharat
+                                </h5>
+                                <img src={ub} alt={ub} />
+                                <div className="project--showcaseBtn">
+                                  <a
+                                    href={
+                                      "https://unite-bharat.vercel.app/"
+                                    }
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className={"iconBtn"}
+                                    aria-labelledby={`code`}
+                                  >
+                                    <FaCode
+                                      id={`code`}
+                                      className={"icon"}
+                                      aria-label="Code"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                              <h6>
+                                <p
+                                  className="project--desc"
+                                  style={{
+                                    background: "#fff",
+                                    color: "#b061df",
+                                    fontWeight: 600,
+                                  }}
+                                >
+Built an online integrated platform for project repositories
+taken up by various universities and colleges.                                </p>
+                              </h6>
+                              <div
+                                className="project--lang"
+                                style={{
+                                  background: "#fff",
+                                  color: "#b061df",
+                                  fontWeight: 600,
+                                }}
+                              >
+                                React.js, Node.js, MongoDB, Python
                               </div>
                             </div>
                           </Fade>
