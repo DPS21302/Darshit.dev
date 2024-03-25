@@ -107,7 +107,7 @@ export default function MyNav() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/blogs"
+                to="https://darshitsojitra.hashnode.dev/ruling-the-rhythms-youtube-musics-algorithm-the-ultimate-champion-of-custom-playlists"
                 onClick={() => updateExpanded(false)}
               >
                 <FaBlog style={{ marginBottom: "2px" }} /> Blogs
