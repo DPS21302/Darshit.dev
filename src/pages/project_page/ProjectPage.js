@@ -4,6 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
 import { Fade } from "react-reveal";
 import collegpt from "../../images/collegpt.jpeg";
+import hackingly from "../../images/hackingly.webp";
 import barber from "../../images/barber.png";
 import ub from "../../images/unite-bharat.png";
 import echallan from "../../images/echallan.png";
@@ -30,6 +31,64 @@ export default function ProjectPage() {
                   <Row>
                     <Col md={12} className="mt-5">
                       <Row className="g-5">
+                        <Col md={3} className="col-sm-12 col-md-4">
+                          <Fade bottom>
+                            <div
+                              key={1}
+                              className="singleProject"
+                              style={{
+                                backgroundColor: "rgb(142 70 186 / 31%)",
+                                border: "1px solid",
+                              }}
+                            >
+                              <div className="projectContent">
+                                <h5 id={"first"} style={{ color: "#fff" }}>
+                                Hackingly (SDE-Intern)
+                                </h5>
+                                <img src={hackingly} alt={hackingly} />
+                                <div className="project--showcaseBtn">
+                                  <a
+                                    href={
+                                      "https://www.hackingly.in/"
+                                    }
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className={"iconBtn"}
+                                    aria-labelledby={`code`}
+                                  >
+                                    <FaCode
+                                      id={`code`}
+                                      className={"icon"}
+                                      aria-label="Code"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                              <h6>
+                                <p
+                                  className="project--desc"
+                                  style={{
+                                    background: "#fff",
+                                    color: "#b061df",
+                                    fontWeight: 600,
+                                  }}
+                                >
+                      Interned as a React.JS developer and UI/UX designer at Hackingly, focusing on web development within Agile framework.
+                                </p>
+                              </h6>
+                              <div
+                                className="project--lang"
+                                style={{
+                                  background: "#fff",
+                                  color: "#b061df",
+                                  fontWeight: 600,
+                                }}
+                              >
+                    React.js, Tailwind, Figma
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
                         <Col md={3} className="col-sm-12 col-md-4">
                           <Fade bottom>
                             <div
