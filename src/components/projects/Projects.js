@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
 import { Fade } from "react-reveal";
-import collegpt from "../../images/collegpt.jpeg";
+import collegpt from "../../images/collegpt.png";
 import hackingly from "../../images/hackingly.webp";
 import barber from "../../images/barber.png";
 import echallan from "../../images/echallan.png";
